@@ -16,3 +16,11 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+input {
+    margin-bottom: 5px
+}
+
+label {
+    margin-bottom: 5px
+}

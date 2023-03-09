@@ -11,7 +11,7 @@ namespace Fenix.Maps
             builder.ToTable("Cidade");
 
             builder.HasKey(c => c.Id);
-            builder.Property(c => c.Id).UseSqlServerIdentityColumn();
+            builder.Property(c => c.Id).UseIdentityColumn();
             builder.Property(c => c.Nome).HasColumnName("nome");
             builder.Property(c => c.UF).HasColumnName("UF");
         }
